@@ -1,0 +1,48 @@
+Progressive Web Applications (PWA) Challenge: Text Editor
+Welcome to the PWA challenge for building a text editor that runs in the browser. This project will demonstrate your proficiency in creating single-page applications that meet PWA criteria, feature data persistence techniques, and function offline. Let's dive into the details!
+
+Project Overview
+In this project, you will build a text editor web application from scratch. The application will feature the following functionalities:
+
+Create notes or code snippets with or without an internet connection.
+Reliably retrieve saved notes or code snippets for later use.
+Getting Started
+Before you begin, make sure to clone the starter code repository and create your own repository with the starter code. Do not fork the starter code repository.
+
+Clone the Starter Code Repository:
+Starter Code Repository https://github.com/coding-boot-camp/cautious-meme.git
+
+User Story
+As a developer:
+I want to create notes or code snippets with or without an internet connection
+So that I can reliably retrieve them for later use.
+
+Acceptance Criteria
+When I open my application in my editor, I should see a client-server folder structure.
+When I run npm run start from the root directory, the application should start up the backend and serve the client.
+When I run the text editor application from my terminal, the JavaScript files should be bundled using webpack.
+When I run my webpack plugins, I should have a generated HTML file, service worker, and a manifest file.
+When I use next-gen JavaScript in my application, the text editor should still function in the browser without errors.
+When I open the text editor, IndexedDB should immediately create a database storage.
+When I enter content and subsequently click off the DOM window, the content in the text editor should be saved with IndexedDB.
+When I reopen the text editor after closing it, the content in the text editor should be retrieved from IndexedDB.
+When I click on the Install button, I should download my web application as an icon on my desktop.
+When I load my web application, I should have a registered service worker using workbox.
+When I register a service worker, my static assets should be pre-cached upon loading along with subsequent pages and static assets.
+When I deploy to Render, I should have proper build scripts for a webpack application.
+Tools and Technologies
+To accomplish this task, you will utilize:
+
+IndexedDB: For storing and retrieving data.
+idb Package: A lightweight wrapper around the IndexedDB API.
+Webpack: For bundling JavaScript files and managing dependencies.
+Service Worker: For offline functionality and caching.
+Workbox: For managing service worker functionality.
+Deployment
+You will deploy this full-stack application to Render using the Render Deployment Guide on The Full-Stack Blog. Make sure to follow the deployment guide carefully for a successful deployment.
+
+
+Repository:
+https://github.com/jmartincampos/Jate.git
+
+
